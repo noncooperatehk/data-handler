@@ -1,4 +1,5 @@
-import "@babel/polyfill"; //must include this, otherwise Babel does not work.
+import "core-js/stable"; //must include this, otherwise Babel does not work.
+import "regenerator-runtime/runtime"; //must include this, otherwise Babel does not work.
 import vfile from "vfile";
 const a = 0;
 let b = a + 1;

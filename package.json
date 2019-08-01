@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.1.4",
+    "regenerator-runtime": "^0.13.3",
     "to-vfile": "^6.0.0",
     "unified": "^8.3.2",
     "vfile": "^4.0.1"
