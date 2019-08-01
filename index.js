@@ -1,7 +1,7 @@
-import 'regenerator-runtime/runtime'
+import "@babel/polyfill"; //must include this, otherwise Babel does not work.
+import vfile from "vfile";
 const a = 0;
 let b = a + 1;
-console.log(b);
 
 async function nani() {
     let result = await new Promise((resolve) => {
