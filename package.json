@@ -12,6 +12,7 @@
   "dependencies": {
     "core-js": "^3.1.4",
     "regenerator-runtime": "^0.13.3",
+    "remark-parse": "^7.0.0",
     "to-vfile": "^6.0.0",
     "unified": "^8.3.2",
     "vfile": "^4.0.1"

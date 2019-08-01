@@ -1,0 +1,629 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "Metadata",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 3,
+              "offset": 2
+            },
+            "end": {
+              "line": 1,
+              "column": 11,
+              "offset": 10
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 11,
+          "offset": 10
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "longitude",
+      "label": "longitude",
+      "title": null,
+      "url": "123",
+      "position": {
+        "start": {
+          "line": 2,
+          "column": 1,
+          "offset": 11
+        },
+        "end": {
+          "line": 2,
+          "column": 17,
+          "offset": 27
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "latitude",
+      "label": "latitude",
+      "title": null,
+      "url": "123",
+      "position": {
+        "start": {
+          "line": 3,
+          "column": 1,
+          "offset": 28
+        },
+        "end": {
+          "line": 3,
+          "column": 16,
+          "offset": 43
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "preview-image-url",
+      "label": "preview-image-url",
+      "title": null,
+      "url": "https://upload.wikimedia.org/wikipedia/zh/thumb/c/ce/Yoshinoya.svg/1200px-Yoshinoya.svg.png",
+      "position": {
+        "start": {
+          "line": 4,
+          "column": 1,
+          "offset": 44
+        },
+        "end": {
+          "line": 4,
+          "column": 113,
+          "offset": 156
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "fact-check-status",
+      "label": "fact-check-status",
+      "title": null,
+      "url": "fact-checked",
+      "position": {
+        "start": {
+          "line": 5,
+          "column": 1,
+          "offset": 157
+        },
+        "end": {
+          "line": 5,
+          "column": 34,
+          "offset": 190
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "address",
+      "label": "address",
+      "title": null,
+      "url": "觀塘觀塘道2號",
+      "position": {
+        "start": {
+          "line": 6,
+          "column": 1,
+          "offset": 191
+        },
+        "end": {
+          "line": 6,
+          "column": 19,
+          "offset": 209
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "tags",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 1,
+              "offset": 211
+            },
+            "end": {
+              "line": 8,
+              "column": 5,
+              "offset": 215
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 8,
+          "column": 1,
+          "offset": 211
+        },
+        "end": {
+          "line": 8,
+          "column": 5,
+          "offset": 215
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "start": null,
+      "spread": false,
+      "children": [
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "tag-name1",
+                  "position": {
+                    "start": {
+                      "line": 9,
+                      "column": 3,
+                      "offset": 218
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 12,
+                      "offset": 227
+                    },
+                    "indent": []
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 9,
+                  "column": 3,
+                  "offset": 218
+                },
+                "end": {
+                  "line": 9,
+                  "column": 12,
+                  "offset": 227
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 1,
+              "offset": 216
+            },
+            "end": {
+              "line": 9,
+              "column": 12,
+              "offset": 227
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "tag-name2",
+                  "position": {
+                    "start": {
+                      "line": 10,
+                      "column": 3,
+                      "offset": 230
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 12,
+                      "offset": 239
+                    },
+                    "indent": []
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 10,
+                  "column": 3,
+                  "offset": 230
+                },
+                "end": {
+                  "line": 10,
+                  "column": 12,
+                  "offset": 239
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 228
+            },
+            "end": {
+              "line": 10,
+              "column": 12,
+              "offset": 239
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "tag-name3",
+                  "position": {
+                    "start": {
+                      "line": 11,
+                      "column": 3,
+                      "offset": 242
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 12,
+                      "offset": 251
+                    },
+                    "indent": []
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 11,
+                  "column": 3,
+                  "offset": 242
+                },
+                "end": {
+                  "line": 11,
+                  "column": 12,
+                  "offset": 251
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 1,
+              "offset": 240
+            },
+            "end": {
+              "line": 11,
+              "column": 12,
+              "offset": 251
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 9,
+          "column": 1,
+          "offset": 216
+        },
+        "end": {
+          "line": 11,
+          "column": 12,
+          "offset": 251
+        },
+        "indent": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "Company Detail",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 3,
+              "offset": 255
+            },
+            "end": {
+              "line": 13,
+              "column": 17,
+              "offset": 269
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 13,
+          "column": 1,
+          "offset": 253
+        },
+        "end": {
+          "line": 13,
+          "column": 17,
+          "offset": 269
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Please write whatever you want here and follow markdown syntax.",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 1,
+              "offset": 270
+            },
+            "end": {
+              "line": 14,
+              "column": 64,
+              "offset": 333
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 14,
+          "column": 1,
+          "offset": 270
+        },
+        "end": {
+          "line": 14,
+          "column": 64,
+          "offset": 333
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "If you want add a youtube video, please use this ",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 1,
+              "offset": 335
+            },
+            "end": {
+              "line": 16,
+              "column": 50,
+              "offset": 384
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "link",
+          "title": null,
+          "url": "http://embedyoutube.org/",
+          "children": [
+            {
+              "type": "text",
+              "value": "link",
+              "position": {
+                "start": {
+                  "line": 16,
+                  "column": 51,
+                  "offset": 385
+                },
+                "end": {
+                  "line": 16,
+                  "column": 55,
+                  "offset": 389
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 50,
+              "offset": 384
+            },
+            "end": {
+              "line": 16,
+              "column": 82,
+              "offset": 416
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": " to generate a link. For example.",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 82,
+              "offset": 416
+            },
+            "end": {
+              "line": 16,
+              "column": 115,
+              "offset": 449
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 16,
+          "column": 1,
+          "offset": 335
+        },
+        "end": {
+          "line": 16,
+          "column": 115,
+          "offset": 449
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "inlineCode",
+          "value": "[![五夜講場](http://img.youtube.com/vi/Eoui89XGvXw/0.jpg)](http://www.youtube.com/watch?v=Eoui89XGvXw \"五夜講場 - 文學放得開 2019：紅藕香殘李清照\")",
+          "position": {
+            "start": {
+              "line": 18,
+              "column": 1,
+              "offset": 451
+            },
+            "end": {
+              "line": 18,
+              "column": 129,
+              "offset": 579
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 18,
+          "column": 1,
+          "offset": 451
+        },
+        "end": {
+          "line": 18,
+          "column": 129,
+          "offset": 579
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "title": "五夜講場 - 文學放得開 2019：紅藕香殘李清照",
+          "url": "http://www.youtube.com/watch?v=Eoui89XGvXw",
+          "children": [
+            {
+              "type": "image",
+              "title": null,
+              "url": "http://img.youtube.com/vi/Eoui89XGvXw/0.jpg",
+              "alt": "五夜講場",
+              "position": {
+                "start": {
+                  "line": 20,
+                  "column": 2,
+                  "offset": 582
+                },
+                "end": {
+                  "line": 20,
+                  "column": 54,
+                  "offset": 634
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 1,
+              "offset": 581
+            },
+            "end": {
+              "line": 20,
+              "column": 127,
+              "offset": 707
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 20,
+          "column": 1,
+          "offset": 581
+        },
+        "end": {
+          "line": 20,
+          "column": 127,
+          "offset": 707
+        },
+        "indent": []
+      }
+    }
+  ],
+  "position": {
+    "start": {
+      "line": 1,
+      "column": 1,
+      "offset": 0
+    },
+    "end": {
+      "line": 22,
+      "column": 1,
+      "offset": 709
+    }
+  }
+}

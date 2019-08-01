@@ -1,16 +1,14 @@
 import "core-js/stable"; //must include this, otherwise Babel does not work.
 import "regenerator-runtime/runtime"; //must include this, otherwise Babel does not work.
-import vfile from "vfile";
-const a = 0;
-let b = a + 1;
+import vfile from "to-vfile";
+import fs from 'fs';
+import unified from "unified";
+import markdown from 'remark-parse'
 
-async function nani() {
-    let result = await new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(10)
-        }, 1000)
-    });
-    console.log(result);
-}
+const processor = unified().use(markdown)
+const data = JSON.stringify(processor.parse(vfile.readSync("./example.md")));
 
-nani().catch(e => console.log(e.stack));
+fs.writeFile('output.json', data, {encoding: "utf-8"}, (err) => {
+    if (err) throw err;
+    console.log('The file has been saved!');
+});
