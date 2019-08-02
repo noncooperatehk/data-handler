@@ -4,11 +4,14 @@ import vfile from "to-vfile";
 import fs from 'fs';
 import unified from "unified";
 import markdown from 'remark-parse'
+import frontMatterParser from './frontMatter'
 
-const processor = unified().use(markdown)
-const data = JSON.stringify(processor.parse(vfile.readSync("./example.md")));
+// const processor = unified().use(markdown)
+// const data = JSON.stringify(processor.parse(vfile.readSync("./example.md")));
+//
+// fs.writeFile('output.json', data, {encoding: "utf-8"}, (err) => {
+//     if (err) throw err;
+//     console.log('The file has been saved!');
+// });
 
-fs.writeFile('output.json', data, {encoding: "utf-8"}, (err) => {
-    if (err) throw err;
-    console.log('The file has been saved!');
-});
+frontMatterParser.parseFrontMatter("VitaGreen.md").then(e => console.log(e)).catch(e => console.log(e.stack));
