@@ -5,13 +5,31 @@ import frontMatterParser from './frontMatterParser'
 import markDownParser from "./markDownParser";
 
 async function splitContent(contentStr) {
-    let reg = /(---[\s\S]*---[\s]*)([\s\S]*)/
-    return vfile.readSync("VitaGreen.md").toString().match(reg).slice(1, 3); //get the second and the third element
+    let reg = /(---[\s\S]*---[\s]*)([\s\S]*)/;
+    return contentStr.match(reg).slice(1, 3); //get the second and the third element
 }
 
-async function main() {
-    let content = await vfile.readSync("VitaGreen.md").toString();
-    let [frontMatter, mdContent] = await splitContent(content);
-    let frontMatterJson = await frontMatterParser.parseFrontMatterString(frontMatter)
-    let markDownASTJson = await markDownParser.mdStringToAST(mdContent);
+async function parseFile(path) {
+    let content = await vfile.readSync(path).toString();
+    return parseString(content)
 }
+
+async function parseString(contentStr) {
+    let [frontMatter, mdContent] = await splitContent(contentStr);
+    let frontMatterJson = await frontMatterParser.parseFrontMatterString(frontMatter);
+    let markDownAST = await markDownParser.mdStringToAST(mdContent);
+    return [frontMatterJson, markDownAST, mdContent];
+}
+
+const highLevelParser = {
+    parseString,
+    parseFile
+};
+
+export {
+    frontMatterParser,
+    markDownParser,
+    highLevelParser
+}
+
+export default highLevelParser
