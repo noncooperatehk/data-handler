@@ -4,7 +4,7 @@ import vfile from "to-vfile";
 import fs from 'fs';
 import unified from "unified";
 import markdown from 'remark-parse'
-import frontMatterParser from './frontMatter'
+import frontMatterParser from './frontMatterParser'
 
 // const processor = unified().use(markdown)
 // const data = JSON.stringify(processor.parse(vfile.readSync("./example.md")));
