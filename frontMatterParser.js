@@ -1,5 +1,5 @@
-
-import vfile from "to-vfile";
+import toVfile from "to-vfile";
+import vfile from "vfile";
 import unified from "unified";
 import parse from "remark-parse";
 import stringify from "remark-stringify";
@@ -19,13 +19,20 @@ function yamlFrontMatterToJson(unifiedNode) {
     return yaml.safeLoad(firstChild.value);
 }
 
-async function parseFrontMatter(filename) {
-    let file = await vfile.read(filename);
+async function parseMdFileFrontMatter(filename) {
+    let file = await toVfile.read(filename);
+    let parsed = parser.parse(file);
+    return yamlFrontMatterToJson(parsed);
+}
+
+async function parseFrontMatterString(contentStr) {
+    let file = vfile(contentStr);
     let parsed = parser.parse(file);
     return yamlFrontMatterToJson(parsed);
 }
 
 export default {
     //return a json object
-    parseFrontMatter: parseFrontMatter
+    parseMdFileFrontMatter,
+    parseFrontMatterString,
 }
