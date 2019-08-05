@@ -1,3 +1,4 @@
+import "regenerator-runtime/runtime"; //must include this, otherwise Babel does not work.
 import vfile from 'to-vfile'
 import frontMatterParser from './frontMatterParser'
 import markDownParser from "./markDownParser";
