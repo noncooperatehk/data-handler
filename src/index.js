@@ -9,8 +9,8 @@ async function splitContent(contentStr) {
 }
 
 async function parseFile(path) {
-    let content = await vfile.readSync(path).toString();
-    return parseString(content)
+    let content = await vfile.read(path);
+    return parseString(content.toString())
 }
 
 async function parseString(contentStr) {
