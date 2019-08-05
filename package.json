@@ -1,10 +1,12 @@
 {
   "name": "noncooperatehk-data-processer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "run": "node index.js"
+    "run": "node src/index.js",
+    "build": "babel src --out-dir lib --presets @babel/env",
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "",
